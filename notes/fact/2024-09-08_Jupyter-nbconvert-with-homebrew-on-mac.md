@@ -11,7 +11,7 @@ hubs:
 
 ```bash
 # Usage e.g. convert to python file
-jupyter nbconvert notebooks/dev.ipynb --to script --no-input
+jupyter nbconvert notebooks/dev.ipynb --to script --no-prompt
 
 
 # Fix for error: ValueError: No template sub-directory with name 'latex' found in the following paths
