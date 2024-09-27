@@ -70,3 +70,15 @@ Open multiple files with telescope search
 # Format JSON file
 :%!jq .
 ```
+
+### Refresh linter
+```bash
+:e
+```
+
+## Help
+
+```bash
+# Print value of vim variable
+:echo g:db_ui_save_location
+```

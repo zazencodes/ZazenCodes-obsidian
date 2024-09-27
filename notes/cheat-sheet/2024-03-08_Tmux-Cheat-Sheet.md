@@ -68,6 +68,7 @@ n   next window
 p   previous window
 f   find window
 ,   name window
+.   re-number window (change order)
 &   kill window
 ```
 
