@@ -4,7 +4,7 @@ tags:
     - fact
 hubs:
     - "[[linux]]"
-    = "[[macos]]"
+    - "[[macos]]"
 ---
 
 # Reverse and forward search unix terminal
