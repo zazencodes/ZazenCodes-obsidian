@@ -39,11 +39,13 @@ ma/mA
 'a/'A
 ```
 
-## Quit
+## Find and replace
 
-```bash
-ZZ
-```
+Replace string in one file:
+- select the text in visual mode
+- yank the text with y
+- `:%s/<C-r>0/` (literally type ctrl+r 0 and the yanked text will be inserted)
+
 ## Quickfix list
 
 ```bash
@@ -58,8 +60,11 @@ ZZ
 Open multiple files with telescope search
 
 ```bash
-# With telescope open, populate quickfix list with results
+# With telescope open, populate quickfix list with all results
 <C-q>
+# With telescope open, populate quickfix list with selected results (use Tab to select)
+# M = meta key (option key on Mac, if configured in terminal)
+<M-q>
 # Open all files in quickfix list for editing
 :cdo edit
 ```
@@ -81,4 +86,10 @@ Open multiple files with telescope search
 ```bash
 # Print value of vim variable
 :echo g:db_ui_save_location
+```
+
+## Quit
+
+```bash
+ZZ
 ```
