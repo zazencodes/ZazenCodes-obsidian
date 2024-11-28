@@ -20,6 +20,9 @@ hubs:
 - **Create a zip of a directory**: `zip -r archive.zip directory1`
 - **Add files to an existing zip**: `zip archive.zip newfile`
 - **Extract a zip file**: `unzip archive.zip`
-- **List contents of a zip file**: `unzip -l archive.zip`
 - **Update files in a zip**: `zip -u archive.zip updatedfile`
 
+### Preview without unzipping
+- **List contents of a zip file**: `unzip -l archive.zip`
+- **Head** `unzip -p yourfile.zip | head -10`
+- **Get line count** `unzip -p yourfile.zip | wc -l`
