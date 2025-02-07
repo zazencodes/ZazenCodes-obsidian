@@ -86,15 +86,23 @@ gv/gi
 # Replace tabs with spaces
 :retab
 
+# Python file
+:%!black . # UNTESTED
+
 # Format JSON file
 :%!jq .
 
 # Format JS file
 :%!node_modules/.bin/prettier . -w # UNTESTED
 
-# Python file
-:%!black . # UNTESTED
+# Fold JSON
+zc # close a fold
+zo # open a fold
+za # toggle a fold
+zR # open all folds
+zM # close all folds
 ```
+
 
 
 ## Plugins
