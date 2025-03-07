@@ -189,4 +189,9 @@ vim ~/.local/share/db_ui/
 ZZ
 ```
 
+### Copy file to new location
 
+```bash
+# Save current buffer in Downloads (with same name)
+:w ~/Downloads/%:t
+```
