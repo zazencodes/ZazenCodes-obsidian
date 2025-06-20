@@ -181,6 +181,10 @@ vim ~/.local/share/db_ui/
 ```bash
 # Print value of vim variable
 :echo g:db_ui_save_location
+
+# Show conflicting command mappings
+# e.g. had issue with gr (grn was mapped and I didn't realize it)
+:verbose nmap g
 ```
 
 ### Quit
@@ -194,4 +198,14 @@ ZZ
 ```bash
 # Save current buffer in Downloads (with same name)
 :w ~/Downloads/%:t
+```
+
+### Messages
+
+```bash
+# View previous messages
+:messages
+
+# View previous page of output (some messages don't go into the messages buffer)
+g<
 ```
