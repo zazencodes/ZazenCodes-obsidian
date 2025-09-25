@@ -52,5 +52,7 @@ Fitlers
 jq '.[] | select (.key_name > 18)' file.json
 ```
 
-
-
+Format JSON file in Neovim
+```bash
+:%!jq .
+```
