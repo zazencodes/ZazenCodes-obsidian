@@ -89,7 +89,7 @@ gv/gi
 # Python file
 :%!black . # UNTESTED
 
-# Format JSON file
+# Format JSON file (also works for visual selection)
 :%!jq .
 
 # Format JS file
