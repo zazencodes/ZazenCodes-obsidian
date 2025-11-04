@@ -8,7 +8,7 @@ urls:
     - https://github.com/rendi-api/ffmpeg-cheatsheet
 ---
 
-# 2025-11-03_ffmpeg-cheat-sheet
+# ffmpeg cheat sheet
 
 GitHub - rendi-api/ffmpeg-cheatsheet: A categorized collection of FFmpeg commands for video automation pipelines
 
