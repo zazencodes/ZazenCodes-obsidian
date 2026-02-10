@@ -209,3 +209,22 @@ ZZ
 # View previous page of output (some messages don't go into the messages buffer)
 g<
 ```
+
+### Macros
+
+```bash
+# Start recording into register (e.g. `q`)
+qq
+
+# Do the actions you want automated (normal Vim keystrokes)
+
+# Stop recording
+q
+
+# Play once
+@q
+
+# Play the last played macro again:
+@@
+```
+
