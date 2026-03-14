@@ -50,18 +50,12 @@ alt + shift + k    # join with up
 alt + shift + l    # join with right
 
 # service mode (will see [s] appear by aerospace upper-right icon when active)
+# moonlander keymap: key to the left of the "a"
 alt + shift + ;
 
-# toggle floating / tiling layout (workspace-wide)
-# (use when windows are overlapping or behaving unexpectedly)
+# toggle floating / tiling layout for active window
 alt + shift + ;
 f
 
-# make current window fill entire tiled area
-# (easier option is just send it to another workspace)
-# (this command will close all other windows)
-# (only works in tiling mode)
-alt + shift + ;
-backspace
 ```
 
