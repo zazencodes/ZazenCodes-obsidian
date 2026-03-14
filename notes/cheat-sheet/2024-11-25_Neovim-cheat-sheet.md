@@ -228,3 +228,9 @@ q
 @@
 ```
 
+### Paste mode
+
+```bash
+# When pasting results in unexpected auto-indentation, run this first
+:set paste
+```
