@@ -101,6 +101,9 @@ zo # open a fold
 za # toggle a fold
 zR # open all folds
 zM # close all folds
+
+# format markdown (text inside of visual selection)
+gq
 ```
 
 
